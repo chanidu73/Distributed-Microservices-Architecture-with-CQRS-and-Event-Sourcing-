@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ECommerceMicroservices", "ECommerceMicroservices", "{2E2A1CA2-39EA-4D9F-A5B4-6446239ECF2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService", "{00315F07-37FD-4419-9ABE-04D2463C5BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "ECommerceMicroservices\UserService\UserService\UserService.csproj", "{DD37B062-3A42-4A00-82FC-50F928F44E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD37B062-3A42-4A00-82FC-50F928F44E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD37B062-3A42-4A00-82FC-50F928F44E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD37B062-3A42-4A00-82FC-50F928F44E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD37B062-3A42-4A00-82FC-50F928F44E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00315F07-37FD-4419-9ABE-04D2463C5BBA} = {2E2A1CA2-39EA-4D9F-A5B4-6446239ECF2B}
+		{DD37B062-3A42-4A00-82FC-50F928F44E0E} = {00315F07-37FD-4419-9ABE-04D2463C5BBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2F9DE85-1080-4956-8508-3A44C95385E6}
+	EndGlobalSection
+EndGlobal
